@@ -1,0 +1,7 @@
+.fondobanner{
+
+    background-image: url("../img/banner2.jpg");
+    background-position: center top;
+    background-attachment: fixed;
+    height: 600px;
+}
