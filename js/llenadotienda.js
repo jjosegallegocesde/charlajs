@@ -65,11 +65,20 @@ productos.forEach(function (producto) {
     precioProducto.classList.add("card-text")
     precioProducto.textContent = "$" + producto.precio
 
+    let botonInfoProducto=document.createElement("button")
+    botonInfoProducto.setAttribute("type","button")
+    botonInfoProducto.classList.add("btn")
+    botonInfoProducto.classList.add("btn-warning")
+    botonInfoProducto.classList.add("w-100")
+    botonInfoProducto.classList.add("shadow")
+    botonInfoProducto.textContent="ver producto"
+
 
 
     //PADRES E HIJOS
     cuerpoTarjeta.appendChild(nombreProducto)
     cuerpoTarjeta.appendChild(precioProducto)
+    cuerpoTarjeta.appendChild(botonInfoProducto)
 
 
     tarjeta.appendChild(imagen)
