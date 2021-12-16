@@ -12,8 +12,8 @@ export function mercarProducto(event){
             cantidad:0
         }
 
-        console.log(producto)
-
     }
+
+    return producto
 
 }
